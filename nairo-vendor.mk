@@ -272,7 +272,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     MotoSignatureApp \
-    com.qualcomm.location \
     com.motorola.frameworks.core.addon \
     com.motorola.motosignature \
     com.qti.snapdragon.sdk.display \

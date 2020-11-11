@@ -366,15 +366,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/nairo/proprietary/product/lib/liblayerext.qti.so:$(TARGET_COPY_OUT_PRODUCT)/lib/liblayerext.qti.so \
     vendor/motorola/nairo/proprietary/product/lib/libmcf_native_window_helper.motocamera.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libmcf_native_window_helper.motocamera.so \
     vendor/motorola/nairo/proprietary/product/lib/libmotocare.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libmotocare.so \
-    vendor/motorola/nairo/proprietary/product/lib/libnfc_st_dta.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libnfc_st_dta.so \
-    vendor/motorola/nairo/proprietary/product/lib/libnfc_st_dta_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libnfc_st_dta_jni.so \
     vendor/motorola/nairo/proprietary/product/lib/libsdm-disp-apis.qti.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libsdm-disp-apis.qti.so \
     vendor/motorola/nairo/proprietary/product/lib/libsecureui_svcsock_system.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libsecureui_svcsock_system.so \
     vendor/motorola/nairo/proprietary/product/lib/libslmiptablemgr.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libslmiptablemgr.so \
     vendor/motorola/nairo/proprietary/product/lib/libsmomo.qti.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libsmomo.qti.so \
     vendor/motorola/nairo/proprietary/product/lib/libstfactory.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libstfactory.so \
-    vendor/motorola/nairo/proprietary/product/lib/libstnfc-nci.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libstnfc-nci.so \
-    vendor/motorola/nairo/proprietary/product/lib/libstnfc_nci_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libstnfc_nci_jni.so \
     vendor/motorola/nairo/proprietary/product/lib/libtrigger-handler.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libtrigger-handler.so \
     vendor/motorola/nairo/proprietary/product/lib/libupdateprof.qti.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libupdateprof.qti.so \
     vendor/motorola/nairo/proprietary/product/lib/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.color@1.0.so \
@@ -495,14 +491,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/nairo/proprietary/product/lib64/liblayerext.qti.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/liblayerext.qti.so \
     vendor/motorola/nairo/proprietary/product/lib64/libmcf_native_window_helper.motocamera.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmcf_native_window_helper.motocamera.so \
     vendor/motorola/nairo/proprietary/product/lib64/libmotocare.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmotocare.so \
-    vendor/motorola/nairo/proprietary/product/lib64/libnfc_st_dta.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libnfc_st_dta.so \
-    vendor/motorola/nairo/proprietary/product/lib64/libnfc_st_dta_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libnfc_st_dta_jni.so \
     vendor/motorola/nairo/proprietary/product/lib64/libsdm-disp-apis.qti.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libsdm-disp-apis.qti.so \
     vendor/motorola/nairo/proprietary/product/lib64/libslmiptablemgr.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libslmiptablemgr.so \
     vendor/motorola/nairo/proprietary/product/lib64/libsmomo.qti.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libsmomo.qti.so \
     vendor/motorola/nairo/proprietary/product/lib64/libstfactory.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libstfactory.so \
-    vendor/motorola/nairo/proprietary/product/lib64/libstnfc-nci.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libstnfc-nci.so \
-    vendor/motorola/nairo/proprietary/product/lib64/libstnfc_nci_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libstnfc_nci_jni.so \
     vendor/motorola/nairo/proprietary/product/lib64/libtrigger-handler.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libtrigger-handler.so \
     vendor/motorola/nairo/proprietary/product/lib64/libupdateprof.qti.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libupdateprof.qti.so \
     vendor/motorola/nairo/proprietary/product/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.color@1.0.so \
@@ -600,8 +592,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     DynamicDDSService \
     MotoWaves \
-    NfcSetup_st \
-    Nfc_st \
     QtiTelephonyService \
     VirtualUiccPayment_st \
     datastatusnotification \

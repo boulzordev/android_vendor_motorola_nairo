@@ -220,6 +220,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/nairo/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
     vendor/motorola/nairo/proprietary/lib64/libbinauralrenderer_wrapper.qti.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libbinauralrenderer_wrapper.qti.so \
     vendor/motorola/nairo/proprietary/lib64/libbluetooth_qti.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libbluetooth_qti.so \
+    vendor/motorola/nairo/proprietary/lib64/libbluetooth_qti_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libbluetooth_qti_jni.so \
+    vendor/motorola/nairo/proprietary/lib64/libbluetooth-binder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libbluetooth-binder.so \
     vendor/motorola/nairo/proprietary/lib64/libbtconfigstore.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libbtconfigstore.so \
     vendor/motorola/nairo/proprietary/lib64/libcdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcdsprpc_system.so \
     vendor/motorola/nairo/proprietary/lib64/libframeextension.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libframeextension.so \

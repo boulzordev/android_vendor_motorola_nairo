@@ -277,9 +277,6 @@ PRODUCT_PACKAGES += \
     com.qti.snapdragon.sdk.display \
     qcom-moto-telephony-ext
 PRODUCT_COPY_FILES += \
-    vendor/motorola/nairo/proprietary/product/bin/dpmd:$(TARGET_COPY_OUT_PRODUCT)/bin/dpmd \
-    vendor/motorola/nairo/proprietary/product/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_PRODUCT)/etc/dpm/dpm.conf \
-    vendor/motorola/nairo/proprietary/product/etc/init/dpmd.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/dpmd.rc \
     vendor/motorola/nairo/proprietary/product/etc/ixitdata.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/ixitdata.xml \
     vendor/motorola/nairo/proprietary/product/etc/nfcee_access.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/nfcee_access.xml \
     vendor/motorola/nairo/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
